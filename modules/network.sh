@@ -11,11 +11,6 @@ network_info() {
     echo
     echo "[+] MAC Address:"
     ip link show wlan0 | grep link/ether
-
-    
-
-    
-
     
     echo
 echo "[+] DNS (System):"
@@ -29,3 +24,4 @@ else
 fi
 
 }
+network_info

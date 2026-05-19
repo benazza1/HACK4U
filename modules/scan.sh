@@ -8,3 +8,4 @@ scan_localhost() {
     ping -c 2 127.0.0.1
 
 }
+scan_localhost

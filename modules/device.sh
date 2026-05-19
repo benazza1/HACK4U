@@ -11,3 +11,4 @@ device_info() {
     getprop ro.product.model
 
 }
+device_info
